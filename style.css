@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body
+{
+background-color: aliceblue;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 45px;
+    background-color: black;
+    color: white;
+
+}
+nav ul li{
+padding:0 12px;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+.brand{
+display: flex;
+align-items: center;
+font-weight:bolder ;
+font-size: 1.3rem;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    color: red;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top:14px;
+    color: aliceblue;
+   
+}
+.icons i{
+    cursor: pointer;
+    
+}
+
+.container{
+    min-height: 65vh;
+    background-color: rgb(10, 8, 8);
+    color:yellowgreen;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 10px;
+    background-image: url("images/bannar.webp");
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 75px;
+}
+.songItem{
+    height: 50px;
+    display:flex ;
+    background-color: white;
+   //width: 400px;
+    color: black;
+    margin: 12px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songItem img{
+    width:43px ;
+    margin: 0 23px;
+   border-radius: 50px;
+}
+.timestamp{
+ margin: 0 23px;
+ cursor: pointer;
+}
+
+.timestamp{
+    cursor: pointer;
+}
+
+.songInfo
+{
+    position:absolute;
+    left: 3vw;
+    font-family: 'Ubuntu', sans-serif;
+    color: aliceblue;
+}
+.songInfo img
+{
+    opacity: 1;
+    padding-top: 30px;
+    transition:opacity is ease-in;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
